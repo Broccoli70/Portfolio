@@ -86,14 +86,9 @@ h1:nth-child(2) {
   width: 100%;
 }
 
-.me:nth-child(3) {
-  grid-area: 1 / 5 / 1 / 6;
-  width: 100%;
-}
-
 
 .box#poster{
-  grid-template: 1fr 5vh 1fr / 1fr 5vh 1fr 5vh 1fr;
+  grid-template: 1fr 5vh 1fr 5vh 1fr/ 1fr 5vh 1fr 5vh 1fr;
 }
 
 .picture {
@@ -130,6 +125,10 @@ h1:nth-child(2) {
 
 #poster:nth-child(6) {
   grid-area: 3 / 5 / 4 / 6;
+}
+
+#poster:nth-child(7) {
+  grid-area: 5 / 1 / 6 / 1;
 }
 
 #logos {
