@@ -4,8 +4,8 @@ let counter = 0;
 $("#webb").hide();
 $("#poster").hide();
 $("#logos").hide()
-$("#posters").on("click", ()=> {
 
+$("#posters").on("click", ()=> {
 for (var i = 1; i < 8; i++) {
   $(".p"+ [i]).attr("src", "img/p" + [i] + ".jpg");
 }
@@ -32,7 +32,6 @@ $("#mee").on("click", ()=> {
 
 
 $("#web").on("click", ()=> {
-
   for (var i = 1; i < 4; i++) {
   $(".w"+ [i]).attr("src", "img/w" + [i] + ".jpg");
   }
@@ -47,8 +46,7 @@ $("#web").on("click", ()=> {
 })
 
 $("#logo").on("click", ()=> {
-
-  for (var i = 1; i < 4; i++) {
+  for (var i = 1; i < 5; i++) {
   $(".l"+ [i]).attr("src", "img/l" + [i] + ".jpg");
   }
 

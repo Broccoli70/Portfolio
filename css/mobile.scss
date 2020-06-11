@@ -76,23 +76,16 @@ h1:nth-child(2) {
 }
 
 .box#me{
-  grid-template: 1fr 1fr 1fr / 1fr;
+  display: flex;
+  flex-flow: column;
 }
 
 .me:nth-child(1) {
-  grid-area: 1 / 1 / 1 / 1;
   width: 100%;
 }
 
 .me:nth-child(2) {
   overflow-y: hidden;
-  grid-area: 2 / 1 / 3 / 1;
-  width: 100%;
-}
-
-.me:nth-child(3) {
-  margin-top: -2vh;
-  grid-area: 3 / 1 / 4 / 1;
   width: 100%;
 }
 
