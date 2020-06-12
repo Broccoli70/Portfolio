@@ -46,7 +46,7 @@ $("#web").on("click", ()=> {
 })
 
 $("#logo").on("click", ()=> {
-  for (var i = 1; i < 5; i++) {
+  for (var i = 1; i < 8; i++) {
   $(".l"+ [i]).attr("src", "img/l" + [i] + ".jpg");
   }
 
